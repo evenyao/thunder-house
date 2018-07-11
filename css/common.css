@@ -1,0 +1,59 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* common css 共用css */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background-color: #f7ba3e;
+  padding: 8px 23px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+header,
+#city,
+#aboutme,
+aside,
+#contact,
+#footer-bar {
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+#team,
+#timehistory {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  font: 14px/1.5 arial;
+  background-color: #fff;
+  color: #444;
+}
+
+
